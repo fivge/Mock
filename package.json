@@ -1,6 +1,6 @@
 {
-  "name": "mockjs",
-  "title": "Mock.js",
+  "name": "@0x64.in/mockjs",
+  "title": "mockjs",
   "description": "生成随机数据 & 拦截 Ajax 请求",
   "version": "1.0.1-beta3",
   "homepage": "http://mockjs.com/",
@@ -9,7 +9,8 @@
     "mockJSON",
     "mockAjax"
   ],
-  "author": "nuysoft@gmail.com",
+  "author": "fivge",
+  "license": "MIT",
   "dependencies": {
     "commander": "*"
   },
@@ -26,8 +27,8 @@
     "webpack": "^1.12.9"
   },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/nuysoft/Mock.git"
+    "type": "https",
+    "url": "https://github.com/fivge/mockjs.git"
   },
   "main": "./dist/mock.js",
   "scripts": {
@@ -37,12 +38,6 @@
   "bin": {
     "random": "bin/random"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/nuysoft/Mock/blob/master/LICENSE"
-    }
-  ],
   "spm": {
     "main": "dist/mock.js"
   }
